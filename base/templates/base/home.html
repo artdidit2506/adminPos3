@@ -1,1 +1,61 @@
-{% extends "main.html" %}
+{% extends "soal1.html" %}
+<!-- block -->
+{% block js %}
+<div class="container">
+  <!-- javascriptTest -->
+
+  <h1>
+    <h1>Aplikasi Perpangkatan 10<sup>n </h1>
+    <br />
+    <p id="demo"></p>
+
+    <script type="text/javascript">
+      // Number between 0 and 10
+      let x = 10;
+      document.getElementById("demo").innerHTML =
+        // Number between 1
+        "<p><b>Hasil dari 10<sup>1 :</b> " +
+        Math.pow(x, 1) +
+        "</p>" +
+        // Number between 2
+        "<p><b>Hasil dari 10<sup>2 :</b> " +
+        Math.pow(x, 2) +
+        "</p>" +
+        // Number between 3
+        "<p><b>Hasil dari 10<sup>3 :</b> " +
+        Math.pow(x, 3) +
+        "</p>" +
+        // Number between 4
+        "<p><b>Hasil dari 10<sup>4 :</b> " +
+        Math.pow(x, 4) +
+        "</p>" +
+        // Number between 5
+        "<p><b>Hasil dari 10<sup>5 :</b> " +
+        Math.pow(x, 5) +
+        "</p>" +
+        // Number between 6
+        "<p><b>Hasil dari 10<sup>6 :</b> " +
+        Math.pow(x, 6) +
+        "</p>" +
+        // Number between 7
+        "<p><b>Hasil dari 10<sup>7 :</b> " +
+        Math.pow(x, 7) +
+        "</p>" +
+        // Number between 8
+        "<p><b>Hasil dari 10<sup>8 :</b> " +
+        Math.pow(x, 8) +
+        "</p>" +
+        // Number between 9
+        "<p><b>Hasil dari 10<sup>9 :</b> " +
+        Math.pow(x, 9) +
+        "</p>" +
+        // Number between 10
+        "<p><b>Hasil dari 10<sup>10 :</b> " +
+        Math.pow(x, 10) +
+        "</p>";
+    </script>
+    <!-- EndjavascriptTest -->
+  </h1>
+</div>
+{% endblock js %}
+<!-- Endblock -->
