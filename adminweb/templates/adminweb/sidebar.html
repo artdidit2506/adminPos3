@@ -52,6 +52,28 @@
     </li>
     <!-- EndIdentitas -->
 
+    <!-- Manajemen Cabang -->
+    <li class="nav-item">
+      <a class="nav-link collapsed" data-bs-target="#forms-nav" data-bs-toggle="collapse" href="#">
+        <i class="bi bi-journal-text"></i><span>Manajemen Cabang</span><i class="bi bi-chevron-down ms-auto"></i>
+      </a>
+      <ul id="forms-nav" class="nav-content collapse" data-bs-parent="#sidebar-nav">
+        <li>
+          <a href="{% url 'elements' %}"> <i class="bi bi-circle"></i><span>Identitas Outlet</span> </a>
+        </li>
+        <li>
+          <a href="{% url 'layouts' %}"> <i class="bi bi-circle"></i><span>Form Layouts</span> </a>
+        </li>
+        <li>
+          <a href="{% url 'editors' %}"> <i class="bi bi-circle"></i><span>Form Editors</span> </a>
+        </li>
+        <li>
+          <a href="{% url 'validation' %}"> <i class="bi bi-circle"></i><span>Form Validation</span> </a>
+        </li>
+      </ul>
+    </li>
+    <!-- Manajemen Cabang -->
+
     <!-- Member -->
     <li class="nav-item">
       <a class="nav-link collapsed" data-bs-target="#forms-nav" data-bs-toggle="collapse" href="#"> <i class="bi bi-journal-text"></i><span>Member</span><i class="bi bi-chevron-down ms-auto"></i> </a>
@@ -204,10 +226,32 @@
     </li>
     <!-- EndRetur Produk -->
 
-    <!-- Master Biaya -->
+    <!-- Manajemen Refund -->
     <li class="nav-item">
       <a class="nav-link collapsed" data-bs-target="#forms-nav" data-bs-toggle="collapse" href="#">
-        <i class="bi bi-journal-text"></i><span>Master Biaya</span><i class="bi bi-chevron-down ms-auto"></i>
+        <i class="bi bi-journal-text"></i><span>Manajemen Refund</span><i class="bi bi-chevron-down ms-auto"></i>
+      </a>
+      <ul id="forms-nav" class="nav-content collapse" data-bs-parent="#sidebar-nav">
+        <li>
+          <a href="{% url 'elements' %}"> <i class="bi bi-circle"></i><span>Identitas Outlet</span> </a>
+        </li>
+        <li>
+          <a href="{% url 'layouts' %}"> <i class="bi bi-circle"></i><span>Form Layouts</span> </a>
+        </li>
+        <li>
+          <a href="{% url 'editors' %}"> <i class="bi bi-circle"></i><span>Form Editors</span> </a>
+        </li>
+        <li>
+          <a href="{% url 'validation' %}"> <i class="bi bi-circle"></i><span>Form Validation</span> </a>
+        </li>
+      </ul>
+    </li>
+    <!-- EndManajemen Refund -->
+
+    <!-- Master Biaya PT-->
+    <li class="nav-item">
+      <a class="nav-link collapsed" data-bs-target="#forms-nav" data-bs-toggle="collapse" href="#">
+        <i class="bi bi-journal-text"></i><span>Master Biaya PT</span><i class="bi bi-chevron-down ms-auto"></i>
       </a>
       <ul id="forms-nav" class="nav-content collapse" data-bs-parent="#sidebar-nav">
         <li>
@@ -225,6 +269,72 @@
       </ul>
     </li>
     <!-- EndMaster Biaya -->
+
+    <!-- Master Biaya Pengiriman-->
+    <li class="nav-item">
+      <a class="nav-link collapsed" data-bs-target="#forms-nav" data-bs-toggle="collapse" href="#">
+        <i class="bi bi-journal-text"></i><span>Master Biaya Pengiriman</span><i class="bi bi-chevron-down ms-auto"></i>
+      </a>
+      <ul id="forms-nav" class="nav-content collapse" data-bs-parent="#sidebar-nav">
+        <li>
+          <a href="{% url 'elements' %}"> <i class="bi bi-circle"></i><span>Identitas Outlet</span> </a>
+        </li>
+        <li>
+          <a href="{% url 'layouts' %}"> <i class="bi bi-circle"></i><span>Form Layouts</span> </a>
+        </li>
+        <li>
+          <a href="{% url 'editors' %}"> <i class="bi bi-circle"></i><span>Form Editors</span> </a>
+        </li>
+        <li>
+          <a href="{% url 'validation' %}"> <i class="bi bi-circle"></i><span>Form Validation</span> </a>
+        </li>
+      </ul>
+    </li>
+    <!-- EndMaster Biaya Pengiriman -->
+
+    <!-- Promosi dan Reward-->
+    <li class="nav-item">
+      <a class="nav-link collapsed" data-bs-target="#forms-nav" data-bs-toggle="collapse" href="#">
+        <i class="bi bi-journal-text"></i><span>Promosi & Reward</span><i class="bi bi-chevron-down ms-auto"></i>
+      </a>
+      <ul id="forms-nav" class="nav-content collapse" data-bs-parent="#sidebar-nav">
+        <li>
+          <a href="{% url 'elements' %}"> <i class="bi bi-circle"></i><span>Identitas Outlet</span> </a>
+        </li>
+        <li>
+          <a href="{% url 'layouts' %}"> <i class="bi bi-circle"></i><span>Form Layouts</span> </a>
+        </li>
+        <li>
+          <a href="{% url 'editors' %}"> <i class="bi bi-circle"></i><span>Form Editors</span> </a>
+        </li>
+        <li>
+          <a href="{% url 'validation' %}"> <i class="bi bi-circle"></i><span>Form Validation</span> </a>
+        </li>
+      </ul>
+    </li>
+    <!-- EndPromosi dan Reward -->
+
+    <!-- Konfirmasi Pembayaran-->
+    <li class="nav-item">
+      <a class="nav-link collapsed" data-bs-target="#forms-nav" data-bs-toggle="collapse" href="#">
+        <i class="bi bi-journal-text"></i><span>Konfirmasi Pembayaran</span><i class="bi bi-chevron-down ms-auto"></i>
+      </a>
+      <ul id="forms-nav" class="nav-content collapse" data-bs-parent="#sidebar-nav">
+        <li>
+          <a href="{% url 'elements' %}"> <i class="bi bi-circle"></i><span>Identitas Outlet</span> </a>
+        </li>
+        <li>
+          <a href="{% url 'layouts' %}"> <i class="bi bi-circle"></i><span>Form Layouts</span> </a>
+        </li>
+        <li>
+          <a href="{% url 'editors' %}"> <i class="bi bi-circle"></i><span>Form Editors</span> </a>
+        </li>
+        <li>
+          <a href="{% url 'validation' %}"> <i class="bi bi-circle"></i><span>Form Validation</span> </a>
+        </li>
+      </ul>
+    </li>
+    <!-- EndKonfirmasi Pembayaran -->
 
     <!-- Stock Opname -->
     <li class="nav-item">
@@ -383,6 +493,28 @@
     <!-- Logout -->
     <li class="nav-item">
       <a class="nav-link collapsed" data-bs-target="#forms-nav" data-bs-toggle="collapse" href="#"> <i class="bi bi-journal-text"></i><span>Logout</span><i class="bi bi-chevron-down ms-auto"></i> </a>
+      <ul id="forms-nav" class="nav-content collapse" data-bs-parent="#sidebar-nav">
+        <li>
+          <a href="{% url 'elements' %}"> <i class="bi bi-circle"></i><span>Logout</span> </a>
+        </li>
+        <li>
+          <a href="{% url 'layouts' %}"> <i class="bi bi-circle"></i><span>Form Layouts</span> </a>
+        </li>
+        <li>
+          <a href="{% url 'editors' %}"> <i class="bi bi-circle"></i><span>Form Editors</span> </a>
+        </li>
+        <li>
+          <a href="{% url 'validation' %}"> <i class="bi bi-circle"></i><span>Form Validation</span> </a>
+        </li>
+      </ul>
+    </li>
+    <!-- EndLogout -->
+
+    <!-- Manajemen Social Network -->
+    <li class="nav-item">
+      <a class="nav-link collapsed" data-bs-target="#forms-nav" data-bs-toggle="collapse" href="#">
+        <i class="bi bi-journal-text"></i><span>Manajemen Social Network</span><i class="bi bi-chevron-down ms-auto"></i>
+      </a>
       <ul id="forms-nav" class="nav-content collapse" data-bs-parent="#sidebar-nav">
         <li>
           <a href="{% url 'elements' %}"> <i class="bi bi-circle"></i><span>Logout</span> </a>
