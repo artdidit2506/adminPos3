@@ -24,7 +24,6 @@ urlpatterns = [
     path('progress/', views.componentsProgress, name='progress'),
     path('spinners/', views.componentsSpinners, name='spinners'),
     path('tooltips/', views.componentsTooltips, name='tooltips'),
-    
     path('elements/', views.formElements, name='elements'),
     path('layouts/', views.formLayouts, name='layouts'),
     path('editors/', views.formEditors, name='editors'),
